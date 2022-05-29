@@ -10,7 +10,7 @@ public List<Setting> getSettings() {
 }
 
 To create settings, write in your function (Sprint, Fly, etc.)
-BooleanSetting bool = new BooleanSetting("Boolean", this, true); //вместо булиан вашу настройку
+BooleanSetting bool = new BooleanSetting("Boolean", this, true); //instead boolean your setting
 
 to make a setting in your module, make the module class constructor and add settings addSetting(nastroika):
 public Sprint() {
