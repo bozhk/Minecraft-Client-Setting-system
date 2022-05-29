@@ -12,9 +12,10 @@ public List<Setting> getSettings() {
     return settings;
 }
 ```
-```java
+```
 To create settings, write in your module (Sprint, Fly, etc.)
 ```
+```java
 BooleanSetting bool = new BooleanSetting("Boolean", this, true); //instead boolean your setting
 ```
 ```
